@@ -1,0 +1,4 @@
+{
+	"cmd": ["chromium", "$file_name"],
+	"selector": "text.html.basic"
+}

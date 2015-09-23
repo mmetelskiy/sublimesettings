@@ -1,0 +1,11 @@
+{
+	"cmd": ["python", "$file_name"],
+	"selector": "source.python",
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["gnome-terminal", "-e", "/home/debian/Folder/1Compilers/python.sh '$file'"]
+		}
+	]
+}

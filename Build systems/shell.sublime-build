@@ -1,0 +1,4 @@
+{
+	"cmd": ["gnome-terminal", "-e", "/home/debian/Folder/1Compilers/shell.sh '$file'"],
+	"selector": "source.shell"
+}

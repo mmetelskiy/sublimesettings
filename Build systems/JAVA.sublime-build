@@ -1,0 +1,11 @@
+{
+	"cmd": ["gnome-terminal", "-e", "/home/misha/Folder/1Compilers/java_compile.sh '$file_path' '$file_base_name'"],
+	"selector": "source.java",
+	"variants":
+	[
+   	{
+     	"name": "Run",
+     	"cmd":["gnome-terminal", "-e", "/home/misha/Folder/1Compilers/java_run.sh '$file_path/classes' '$file_base_name'"]
+   	}
+ 	]
+}

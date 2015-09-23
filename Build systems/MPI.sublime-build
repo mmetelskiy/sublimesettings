@@ -1,0 +1,10 @@
+{
+	"cmd": ["mpic++", "-g", "$file_name", "-o", "$file_base_name"],
+	"variants":
+ 	[
+		{
+    		"name": "Run",
+     		"cmd":["mpirun", "-np", "8", "$file_path/$file_base_name"]
+   		}
+ 	]
+}
