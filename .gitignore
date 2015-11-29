@@ -2,6 +2,8 @@
 
 !.gitignore
 !Build systems
+!Build systems/**/*
 !plugins
+!plugins/**/*
 !snippets
 !snippets/**/*

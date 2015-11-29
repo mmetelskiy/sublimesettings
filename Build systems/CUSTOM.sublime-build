@@ -1,0 +1,10 @@
+{
+	"cmd": ["/home/misha/Folder/1Compilers/custom/compile.sh"],
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["konsole", "-e", "~/Folder/1Compilers/custom/run.sh"]
+		}
+	]
+}
