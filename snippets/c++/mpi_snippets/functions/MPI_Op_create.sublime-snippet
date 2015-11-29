@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Op_create(
+	${1:},
+	${2:commute},
+	${3:*op});${0}]]></content>
+	<tabTrigger>mpiopcreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Op_create(MPI_User_function *user_fn, int commute, MPI_Op *op)</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_set(
+	${1:info},
+	${2:*key},
+	${3:*value});${0}]]></content>
+	<tabTrigger>mpiinfoset</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Info_set( MPI_Info info, const char *key, const char *value )</description>
+</snippet>

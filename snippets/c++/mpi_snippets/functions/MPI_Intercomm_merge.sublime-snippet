@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Intercomm_merge(
+	${1:intercomm},
+	${2:high},
+	${3:*newintracomm});${0}]]></content>
+	<tabTrigger>mpiintercommmerge</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Intercomm_merge(MPI_Comm intercomm, int high, MPI_Comm *newintracomm)</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Cart_shift(
+	${1:comm},
+	${2:direction},
+	${3:disp},
+	${4:},
+	${5:});${0}]]></content>
+	<tabTrigger>mpicartshift</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Cart_shift(MPI_Comm comm, int direction, int disp, int *rank_source,
+                  int *rank_dest)</description>
+</snippet>

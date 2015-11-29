@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_create_errhandler(
+	${1:},
+	${2:*errhandler});${0}]]></content>
+	<tabTrigger>mpifilecreateerrhandler</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_create_errhandler(MPI_File_errhandler_function *file_errhandler_fn,
+                               MPI_Errhandler *errhandler)</description>
+</snippet>

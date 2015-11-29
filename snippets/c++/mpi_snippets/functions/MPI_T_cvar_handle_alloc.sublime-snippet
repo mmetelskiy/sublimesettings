@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_cvar_handle_alloc(
+	${1:},
+	${2:},
+	${3:*handle},
+	${4:*count});${0}]]></content>
+	<tabTrigger>mpitcvarhandlealloc</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_cvar_handle_alloc(int cvar_index, void *obj_handle, MPI_T_cvar_handle *handle, int *count)</description>
+</snippet>

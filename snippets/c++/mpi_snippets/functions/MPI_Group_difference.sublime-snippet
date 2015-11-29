@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_difference(
+	${1:},
+	${2:},
+	${3:*newgroup});${0}]]></content>
+	<tabTrigger>mpigroupdifference</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_difference(MPI_Group group1, MPI_Group group2, MPI_Group *newgroup)</description>
+</snippet>

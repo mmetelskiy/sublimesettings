@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_SHORT]]></content>
+	<tabTrigger>mpishort</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_SHORT</description>
+</snippet>

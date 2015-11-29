@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_get_name(
+	${1:comm},
+	${2:},
+	${3:*resultlen});${0}]]></content>
+	<tabTrigger>mpicommgetname</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_get_name(MPI_Comm comm, char *comm_name, int *resultlen)</description>
+</snippet>

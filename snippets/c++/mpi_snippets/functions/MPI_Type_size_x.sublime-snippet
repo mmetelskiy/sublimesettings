@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_size_x(
+	${1:datatype},
+	${2:*size});${0}]]></content>
+	<tabTrigger>mpitypesizex</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_size_x(MPI_Datatype datatype, MPI_Count *size)</description>
+</snippet>

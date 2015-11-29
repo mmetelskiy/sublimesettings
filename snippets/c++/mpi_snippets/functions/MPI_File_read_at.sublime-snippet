@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_read_at(
+	${1:fh},
+	${2:offset},
+	${3:*buf},
+	${4:count},
+	${5:datatype},
+	${6:*status});${0}]]></content>
+	<tabTrigger>mpifilereadat</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_read_at(MPI_File fh, MPI_Offset offset, void *buf,
+                    int count, MPI_Datatype datatype, MPI_Status *status)</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_get_extent_x(
+	${1:datatype},
+	${2:*lb},
+	${3:*extent});${0}]]></content>
+	<tabTrigger>mpitypegetextentx</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_get_extent_x(MPI_Datatype datatype, MPI_Count *lb, MPI_Count *extent)</description>
+</snippet>

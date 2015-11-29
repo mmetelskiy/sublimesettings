@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Request_get_status(
+	${1:request},
+	${2:*flag},
+	${3:*status});${0}]]></content>
+	<tabTrigger>mpirequestgetstatus</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Request_get_status(MPI_Request request, int *flag, MPI_Status *status)</description>
+</snippet>

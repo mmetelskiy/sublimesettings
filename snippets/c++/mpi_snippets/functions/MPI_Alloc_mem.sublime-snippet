@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Alloc_mem(
+	${1:size},
+	${2:info},
+	${3:*baseptr});${0}]]></content>
+	<tabTrigger>mpiallocmem</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Alloc_mem(MPI_Aint size, MPI_Info info, void *baseptr)</description>
+</snippet>

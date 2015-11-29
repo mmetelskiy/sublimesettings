@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_delete_attr(
+	${1:datatype},
+	${2:});${0}]]></content>
+	<tabTrigger>mpitypedeleteattr</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_delete_attr(MPI_Datatype datatype, int type_keyval)</description>
+</snippet>

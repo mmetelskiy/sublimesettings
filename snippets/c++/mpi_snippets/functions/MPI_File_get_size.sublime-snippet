@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_size(
+	${1:fh},
+	${2:*size});${0}]]></content>
+	<tabTrigger>mpifilegetsize</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_size(MPI_File fh, MPI_Offset *size)</description>
+</snippet>

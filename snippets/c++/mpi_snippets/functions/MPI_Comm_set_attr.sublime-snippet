@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_set_attr(
+	${1:comm},
+	${2:},
+	${3:});${0}]]></content>
+	<tabTrigger>mpicommsetattr</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_set_attr(MPI_Comm comm, int comm_keyval, void *attribute_val)</description>
+</snippet>

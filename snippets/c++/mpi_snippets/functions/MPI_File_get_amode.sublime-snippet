@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_amode(
+	${1:fh},
+	${2:*amode});${0}]]></content>
+	<tabTrigger>mpifilegetamode</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_amode(MPI_File fh, int *amode)</description>
+</snippet>

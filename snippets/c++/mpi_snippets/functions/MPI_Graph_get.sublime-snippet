@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Graph_get(
+	${1:comm},
+	${2:maxindex},
+	${3:maxedges},
+	${4:},
+	${5:});${0}]]></content>
+	<tabTrigger>mpigraphget</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Graph_get(MPI_Comm comm, int maxindex, int maxedges, 
+                  int indx[], int edges[])</description>
+</snippet>

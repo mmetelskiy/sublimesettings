@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MPI_Keyval_free(${1:*keyval});${0}]]></content>
+	<tabTrigger>mpikeyvalfree</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Keyval_free(int *keyval)</description>
+</snippet>

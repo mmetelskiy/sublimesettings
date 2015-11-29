@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_excl(
+	${1:group},
+	${2:n},
+	${3:},
+	${4:*newgroup});${0}]]></content>
+	<tabTrigger>mpigroupexcl</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_excl(MPI_Group group, int n, const int ranks[], MPI_Group *newgroup)</description>
+</snippet>

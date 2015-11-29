@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Open_port(
+	${1:info},
+	${2:});${0}]]></content>
+	<tabTrigger>mpiopenport</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Open_port(MPI_Info info, char *port_name)</description>
+</snippet>

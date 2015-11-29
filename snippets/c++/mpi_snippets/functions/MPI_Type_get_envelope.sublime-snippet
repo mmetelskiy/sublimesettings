@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_get_envelope(
+	${1:datatype},
+	${2:},
+	${3:},
+	${4:},
+	${5:*combiner});${0}]]></content>
+	<tabTrigger>mpitypegetenvelope</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_get_envelope(MPI_Datatype datatype,
+                        int *num_integers,
+                        int *num_addresses,
+                        int *num_datatypes,
+                        int *combiner)</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Get_library_version(${1:});${0}]]></content>
+	<tabTrigger>mpigetlibraryversion</tabTrigger>
+	<scope>source.c++</scope>
+	<description>#undef FUNCNAME
+#define FUNCNAME MPI_Get_library_version
+#undef FCNAME
+#define FCNAME MPL_QUOTE(FUNCNAME)
+int MPI_Get_library_version(char *version, int *resultlen)</description>
+</snippet>

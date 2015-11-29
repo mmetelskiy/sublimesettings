@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_compare(
+	${1:},
+	${2:},
+	${3:*result});${0}]]></content>
+	<tabTrigger>mpicommcompare</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_compare(MPI_Comm comm1, MPI_Comm comm2, int *result)</description>
+</snippet>

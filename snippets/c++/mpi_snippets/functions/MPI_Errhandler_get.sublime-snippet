@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Errhandler_get(
+	${1:comm},
+	${2:*errhandler});${0}]]></content>
+	<tabTrigger>mpierrhandlerget</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Errhandler_get(MPI_Comm comm, MPI_Errhandler *errhandler)</description>
+</snippet>

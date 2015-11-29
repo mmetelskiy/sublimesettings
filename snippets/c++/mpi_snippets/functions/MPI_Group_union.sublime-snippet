@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_union(
+	${1:},
+	${2:},
+	${3:*newgroup});${0}]]></content>
+	<tabTrigger>mpigroupunion</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_union(MPI_Group group1, MPI_Group group2, MPI_Group *newgroup)</description>
+</snippet>

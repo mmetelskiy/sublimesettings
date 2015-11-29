@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Init_thread(
+	${1:*argc},
+	${2:***argv},
+	${3:required},
+	${4:*provided});${0}]]></content>
+	<tabTrigger>mpiinitthread</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Init_thread( int *argc, char ***argv, int required, int *provided )</description>
+</snippet>

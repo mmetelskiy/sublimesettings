@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Ibcast(
+	${1:*buffer},
+	${2:count},
+	${3:datatype},
+	${4:root},
+	${5:comm},
+	${6:*request});${0}]]></content>
+	<tabTrigger>mpiibcast</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Ibcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm, MPI_Request *request)</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Testany(
+	${1:count},
+	${2:},
+	${3:*indx},
+	${4:*flag},
+	${5:*status});${0}]]></content>
+	<tabTrigger>mpitestany</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Testany(int count, MPI_Request array_of_requests[], int *indx,
+               int *flag, MPI_Status *status)</description>
+</snippet>

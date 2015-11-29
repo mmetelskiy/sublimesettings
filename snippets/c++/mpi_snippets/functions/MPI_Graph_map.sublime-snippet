@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Graph_map(
+	${1:comm},
+	${2:nnodes},
+	${3:},
+	${4:},
+	${5:*newrank});${0}]]></content>
+	<tabTrigger>mpigraphmap</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Graph_map(MPI_Comm comm, int nnodes, const int indx[], const int edges[],
+                  int *newrank)</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MPI_Op_free(${1:*op});${0}]]></content>
+	<tabTrigger>mpiopfree</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Op_free(MPI_Op *op)</description>
+</snippet>

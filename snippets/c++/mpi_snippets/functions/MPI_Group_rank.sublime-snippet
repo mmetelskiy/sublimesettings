@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_rank(
+	${1:group},
+	${2:*rank});${0}]]></content>
+	<tabTrigger>mpigrouprank</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_rank(MPI_Group group, int *rank)</description>
+</snippet>

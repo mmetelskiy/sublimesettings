@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+MPI_Recv(
+	${1:*buf},
+	${2:count},
+	${3:datatype},
+	${4:source},
+	${5:tag},
+	${6:comm},
+	${7:*status});${0}]]></content>
+	<tabTrigger>mpirecv</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Recv(void *buf, int count, MPI_Datatype datatype, int source, int tag,
+             MPI_Comm comm, MPI_Status *status)</description>
+</snippet>

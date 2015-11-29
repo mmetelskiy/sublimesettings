@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_UNSIGNED]]></content>
+	<tabTrigger>mpiunsigned</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_UNSIGNED</description>
+</snippet>

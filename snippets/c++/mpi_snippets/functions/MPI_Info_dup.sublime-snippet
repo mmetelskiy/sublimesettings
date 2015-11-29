@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_dup(
+	${1:info},
+	${2:*newinfo});${0}]]></content>
+	<tabTrigger>mpiinfodup</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Info_dup( MPI_Info info, MPI_Info *newinfo )</description>
+</snippet>

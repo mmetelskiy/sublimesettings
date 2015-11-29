@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_get_valuelen(${1:});${0}]]></content>
+	<tabTrigger>mpiinfogetvaluelen</tabTrigger>
+	<scope>source.c++</scope>
+	<description>#undef FUNCNAME
+#define FUNCNAME MPIRInfo_get_valuelen
+#undef FCNAME
+#define FCNAME MPL_QUOTE(FUNCNAME)
+int MPI_Info_get_valuelen( MPI_Info info, const char *key, int *valuelen, int *flag )</description>
+</snippet>

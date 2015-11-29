@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_call_errhandler(
+	${1:fh},
+	${2:errorcode});${0}]]></content>
+	<tabTrigger>mpifilecallerrhandler</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_call_errhandler(MPI_File fh, int errorcode)</description>
+</snippet>

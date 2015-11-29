@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Ssend(
+	${1:*buf},
+	${2:count},
+	${3:datatype},
+	${4:dest},
+	${5:tag},
+	${6:comm});${0}]]></content>
+	<tabTrigger>mpissend</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Ssend(const void *buf, int count, MPI_Datatype datatype, int dest, int tag,
+              MPI_Comm comm)</description>
+</snippet>

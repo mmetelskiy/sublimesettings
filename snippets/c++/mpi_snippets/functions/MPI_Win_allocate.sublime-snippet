@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_allocate(
+	${1:size},
+	${2:},
+	${3:info},
+	${4:comm},
+	${5:*baseptr},
+	${6:*win});${0}]]></content>
+	<tabTrigger>mpiwinallocate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_allocate(MPI_Aint size, int disp_unit, MPI_Info info, 
+                  MPI_Comm comm, void *baseptr, MPI_Win *win)</description>
+</snippet>

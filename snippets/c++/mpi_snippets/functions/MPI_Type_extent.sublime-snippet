@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_extent(
+	${1:datatype},
+	${2:*extent});${0}]]></content>
+	<tabTrigger>mpitypeextent</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_extent(MPI_Datatype datatype, MPI_Aint *extent)</description>
+</snippet>

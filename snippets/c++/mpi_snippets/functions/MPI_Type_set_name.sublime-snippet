@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_set_name(
+	${1:datatype},
+	${2:});${0}]]></content>
+	<tabTrigger>mpitypesetname</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_set_name(MPI_Datatype datatype, const char *type_name)</description>
+</snippet>

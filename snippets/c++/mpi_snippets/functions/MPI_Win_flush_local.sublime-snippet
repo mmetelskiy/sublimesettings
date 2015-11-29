@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_flush_local(
+	${1:rank},
+	${2:win});${0}]]></content>
+	<tabTrigger>mpiwinflushlocal</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_flush_local(int rank, MPI_Win win)</description>
+</snippet>

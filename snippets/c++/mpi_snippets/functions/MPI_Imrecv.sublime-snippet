@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Imrecv(
+	${1:*buf},
+	${2:count},
+	${3:datatype},
+	${4:*message},
+	${5:*request});${0}]]></content>
+	<tabTrigger>mpiimrecv</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Imrecv(void *buf, int count, MPI_Datatype datatype, MPI_Message *message, MPI_Request *request)</description>
+</snippet>

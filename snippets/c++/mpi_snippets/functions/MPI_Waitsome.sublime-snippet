@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Waitsome(
+	${1:incount},
+	${2:},
+	${3:*outcount},
+	${4:},
+	${5:});${0}]]></content>
+	<tabTrigger>mpiwaitsome</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Waitsome(int incount, MPI_Request array_of_requests[], 
+                int *outcount, int array_of_indices[],
+                MPI_Status array_of_statuses[])</description>
+</snippet>

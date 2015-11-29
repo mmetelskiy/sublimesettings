@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_init_thread(
+	${1:required},
+	${2:*provided});${0}]]></content>
+	<tabTrigger>mpitinitthread</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_init_thread(int required, int *provided)</description>
+</snippet>

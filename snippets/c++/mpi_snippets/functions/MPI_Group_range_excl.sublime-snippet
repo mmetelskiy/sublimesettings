@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_range_excl(
+	${1:group},
+	${2:n},
+	${3:},
+	${4:*newgroup});${0}]]></content>
+	<tabTrigger>mpigrouprangeexcl</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_range_excl(MPI_Group group, int n, int ranges[][3], 
+                         MPI_Group *newgroup)</description>
+</snippet>

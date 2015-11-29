@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+MPI_Alltoallv(
+	${1:*sendbuf},
+	${2:*sendcounts},
+	${3:*sdispls},
+	${4:sendtype},
+	${5:*recvbuf},
+	${6:*recvcounts},
+	${7:*rdispls},
+	${8:recvtype},
+	${9:comm});${0}]]></content>
+	<tabTrigger>mpialltoallv</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Alltoallv(const void *sendbuf, const int *sendcounts,
+                  const int *sdispls, MPI_Datatype sendtype, void *recvbuf,
+                  const int *recvcounts, const int *rdispls, MPI_Datatype recvtype,
+                  MPI_Comm comm)</description>
+</snippet>

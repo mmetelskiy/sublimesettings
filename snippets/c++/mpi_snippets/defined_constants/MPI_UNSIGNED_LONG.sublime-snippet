@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_UNSIGNED_LONG]]></content>
+	<tabTrigger>mpiunsignedlong</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_UNSIGNED_LONG</description>
+</snippet>

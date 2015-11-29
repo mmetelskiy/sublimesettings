@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_test(
+	${1:win},
+	${2:*flag});${0}]]></content>
+	<tabTrigger>mpiwintest</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_test(MPI_Win win, int *flag)</description>
+</snippet>

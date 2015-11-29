@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_pvar_stop(
+	${1:session},
+	${2:handle});${0}]]></content>
+	<tabTrigger>mpitpvarstop</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_pvar_stop(MPI_T_pvar_session session, MPI_T_pvar_handle handle)</description>
+</snippet>

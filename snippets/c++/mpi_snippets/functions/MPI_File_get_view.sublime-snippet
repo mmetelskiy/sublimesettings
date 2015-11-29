@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_view(
+	${1:fh},
+	${2:*disp},
+	${3:*etype},
+	${4:*filetype},
+	${5:*datarep});${0}]]></content>
+	<tabTrigger>mpifilegetview</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_view(MPI_File fh, MPI_Offset *disp, MPI_Datatype *etype,
+                      MPI_Datatype *filetype, char *datarep)</description>
+</snippet>

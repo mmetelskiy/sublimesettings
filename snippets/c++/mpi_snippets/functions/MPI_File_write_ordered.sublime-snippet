@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_write_ordered(
+	${1:fh},
+	${2:*buf},
+	${3:count},
+	${4:datatype},
+	${5:*status});${0}]]></content>
+	<tabTrigger>mpifilewriteordered</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_write_ordered(MPI_File fh, ROMIO_CONST void *buf, int count,
+                         MPI_Datatype datatype, MPI_Status *status)</description>
+</snippet>

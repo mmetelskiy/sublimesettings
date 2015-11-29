@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_delete_attr(
+	${1:win},
+	${2:});${0}]]></content>
+	<tabTrigger>mpiwindeleteattr</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_delete_attr(MPI_Win win, int win_keyval)</description>
+</snippet>

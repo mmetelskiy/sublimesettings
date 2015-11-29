@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_create(
+	${1:comm},
+	${2:group},
+	${3:*newcomm});${0}]]></content>
+	<tabTrigger>mpicommcreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_create(MPI_Comm comm, MPI_Group group, MPI_Comm *newcomm)</description>
+</snippet>

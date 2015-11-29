@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+MPI_Dist_graph_create(
+	${1:},
+	${2:n},
+	${3:},
+	${4:},
+	${5:},
+	${6:},
+	${7:info},
+	${8:reorder},
+	${9:});${0}]]></content>
+	<tabTrigger>mpidistgraphcreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Dist_graph_create(MPI_Comm comm_old, int n, const int sources[],
+                          const int degrees[], const int destinations[],
+                          const int weights[],
+                          MPI_Info info, int reorder, MPI_Comm *comm_dist_graph)</description>
+</snippet>

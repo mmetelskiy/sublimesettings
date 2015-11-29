@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_incl(
+	${1:group},
+	${2:n},
+	${3:},
+	${4:*newgroup});${0}]]></content>
+	<tabTrigger>mpigroupincl</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_incl(MPI_Group group, int n, const int ranks[], MPI_Group *newgroup)</description>
+</snippet>

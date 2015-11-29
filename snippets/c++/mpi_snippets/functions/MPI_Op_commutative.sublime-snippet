@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Op_commutative(
+	${1:op},
+	${2:*commute});${0}]]></content>
+	<tabTrigger>mpiopcommutative</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Op_commutative(MPI_Op op, int *commute)</description>
+</snippet>

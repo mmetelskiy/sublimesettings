@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_join(
+	${1:fd},
+	${2:*intercomm});${0}]]></content>
+	<tabTrigger>mpicommjoin</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_join(int fd, MPI_Comm *intercomm)</description>
+</snippet>

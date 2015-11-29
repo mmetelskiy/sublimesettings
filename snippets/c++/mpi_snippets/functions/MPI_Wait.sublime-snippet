@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Wait(
+	${1:*request},
+	${2:*status});${0}]]></content>
+	<tabTrigger>mpiwait</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Wait(MPI_Request *request, MPI_Status *status)</description>
+</snippet>

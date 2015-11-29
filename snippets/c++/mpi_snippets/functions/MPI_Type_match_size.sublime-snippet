@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_match_size(
+	${1:typeclass},
+	${2:size},
+	${3:*datatype});${0}]]></content>
+	<tabTrigger>mpitypematchsize</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_match_size(int typeclass, int size, MPI_Datatype *datatype)</description>
+</snippet>

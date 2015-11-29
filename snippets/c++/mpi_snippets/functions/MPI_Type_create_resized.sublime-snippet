@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_create_resized(
+	${1:oldtype},
+	${2:lb},
+	${3:extent},
+	${4:*newtype});${0}]]></content>
+	<tabTrigger>mpitypecreateresized</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_create_resized(MPI_Datatype oldtype,
+                          MPI_Aint lb,
+                          MPI_Aint extent,
+                          MPI_Datatype *newtype)</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Unpack(
+	${1:*inbuf},
+	${2:insize},
+	${3:*position},
+	${4:*outbuf},
+	${5:outcount},
+	${6:datatype},
+	${7:comm});${0}]]></content>
+	<tabTrigger>mpiunpack</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Unpack(const void *inbuf, int insize, int *position,
+               void *outbuf, int outcount, MPI_Datatype datatype,
+               MPI_Comm comm)</description>
+</snippet>

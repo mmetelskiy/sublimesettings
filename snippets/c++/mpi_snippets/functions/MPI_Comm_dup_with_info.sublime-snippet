@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_dup_with_info(
+	${1:comm},
+	${2:info},
+	${3:newcomm});${0}]]></content>
+	<tabTrigger>mpicommdupwithinfo</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_dup_with_info(MPI_Comm comm, MPI_Info info, MPI_Comm * newcomm)</description>
+</snippet>

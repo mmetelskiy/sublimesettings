@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Fetch_and_op(
+	${1:},
+	${2:},
+	${3:datatype},
+	${4:},
+	${5:},
+	${6:op},
+	${7:win});${0}]]></content>
+	<tabTrigger>mpifetchandop</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Fetch_and_op(const void *origin_addr, void *result_addr,
+        MPI_Datatype datatype, int target_rank, MPI_Aint target_disp,
+        MPI_Op op, MPI_Win win)</description>
+</snippet>

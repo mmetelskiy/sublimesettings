@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_indexed(
+	${1:count},
+	${2:},
+	${3:},
+	${4:oldtype},
+	${5:*newtype});${0}]]></content>
+	<tabTrigger>mpitypeindexed</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_indexed(int count,
+                    const int *array_of_blocklengths,
+                    const int *array_of_displacements,
+                    MPI_Datatype oldtype,
+                    MPI_Datatype *newtype)</description>
+</snippet>

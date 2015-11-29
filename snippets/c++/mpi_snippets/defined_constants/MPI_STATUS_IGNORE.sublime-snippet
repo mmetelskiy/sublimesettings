@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_STATUS_IGNORE]]></content>
+	<tabTrigger>mpistatusignore</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_STATUS_IGNORE</description>
+</snippet>

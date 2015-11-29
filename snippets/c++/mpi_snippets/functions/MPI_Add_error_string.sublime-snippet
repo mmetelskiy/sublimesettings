@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Add_error_string(
+	${1:errorcode},
+	${2:*string});${0}]]></content>
+	<tabTrigger>mpiadderrorstring</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Add_error_string(int errorcode, const char *string)</description>
+</snippet>

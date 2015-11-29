@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_write_all_end(
+	${1:fh},
+	${2:*buf},
+	${3:*status});${0}]]></content>
+	<tabTrigger>mpifilewriteallend</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_write_all_end(MPI_File fh, ROMIO_CONST void *buf, MPI_Status *status)</description>
+</snippet>

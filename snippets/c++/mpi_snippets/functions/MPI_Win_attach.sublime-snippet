@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_attach(
+	${1:win},
+	${2:*base},
+	${3:size});${0}]]></content>
+	<tabTrigger>mpiwinattach</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_attach(MPI_Win win, void *base, MPI_Aint size)</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Graph_neighbors(
+	${1:comm},
+	${2:rank},
+	${3:maxneighbors},
+	${4:});${0}]]></content>
+	<tabTrigger>mpigraphneighbors</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Graph_neighbors(MPI_Comm comm, int rank, int maxneighbors, 
+                      int neighbors[])</description>
+</snippet>

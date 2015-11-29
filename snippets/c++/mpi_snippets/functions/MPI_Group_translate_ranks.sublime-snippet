@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Group_translate_ranks(
+	${1:},
+	${2:n},
+	${3:},
+	${4:},
+	${5:});${0}]]></content>
+	<tabTrigger>mpigrouptranslateranks</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Group_translate_ranks(MPI_Group group1, int n, const int ranks1[],
+                            MPI_Group group2, int ranks2[])</description>
+</snippet>

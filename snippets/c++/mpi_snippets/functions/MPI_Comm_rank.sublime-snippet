@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_rank(
+	${1:comm},
+	${2:*rank});${0}]]></content>
+	<tabTrigger>mpicommrank</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_rank( MPI_Comm comm, int *rank ) </description>
+</snippet>

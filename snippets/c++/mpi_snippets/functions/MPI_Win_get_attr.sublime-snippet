@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_get_attr(
+	${1:win},
+	${2:},
+	${3:},
+	${4:*flag});${0}]]></content>
+	<tabTrigger>mpiwingetattr</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_get_attr(MPI_Win win, int win_keyval, void *attribute_val, 
+                    int *flag)</description>
+</snippet>

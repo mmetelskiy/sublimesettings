@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_fence(
+	${1:assert},
+	${2:win});${0}]]></content>
+	<tabTrigger>mpiwinfence</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_fence(int assert, MPI_Win win)</description>
+</snippet>

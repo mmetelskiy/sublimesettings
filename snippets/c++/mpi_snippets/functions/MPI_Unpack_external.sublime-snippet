@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+MPI_Unpack_external(
+	${1:},
+	${2:*inbuf},
+	${3:insize},
+	${4:*position},
+	${5:*outbuf},
+	${6:outcount},
+	${7:datatype});${0}]]></content>
+	<tabTrigger>mpiunpackexternal</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Unpack_external(const char datarep[],
+                      const void *inbuf,
+                      MPI_Aint insize,
+                      MPI_Aint *position,
+                      void *outbuf,
+                      int outcount,
+                      MPI_Datatype datatype)</description>
+</snippet>

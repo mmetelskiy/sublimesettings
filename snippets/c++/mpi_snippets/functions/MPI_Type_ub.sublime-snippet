@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_ub(
+	${1:datatype},
+	${2:*displacement});${0}]]></content>
+	<tabTrigger>mpitypeub</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_ub(MPI_Datatype datatype, MPI_Aint *displacement)</description>
+</snippet>

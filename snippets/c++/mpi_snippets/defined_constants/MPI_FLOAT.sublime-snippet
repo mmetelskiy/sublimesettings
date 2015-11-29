@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_FLOAT]]></content>
+	<tabTrigger>mpifloat</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_FLOAT</description>
+</snippet>

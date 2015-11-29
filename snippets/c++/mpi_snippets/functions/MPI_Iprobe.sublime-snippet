@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Iprobe(
+	${1:source},
+	${2:tag},
+	${3:comm},
+	${4:*flag},
+	${5:*status});${0}]]></content>
+	<tabTrigger>mpiiprobe</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Iprobe(int source, int tag, MPI_Comm comm, int *flag, 
+               MPI_Status *status)</description>
+</snippet>

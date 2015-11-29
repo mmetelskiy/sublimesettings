@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MPI_Is_thread_main(${1:*flag});${0}]]></content>
+	<tabTrigger>mpiisthreadmain</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Is_thread_main( int *flag )</description>
+</snippet>

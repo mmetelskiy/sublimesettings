@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Compare_and_swap(
+	${1:},
+	${2:},
+	${3:},
+	${4:datatype},
+	${5:},
+	${6:},
+	${7:win});${0}]]></content>
+	<tabTrigger>mpicompareandswap</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Compare_and_swap(const void *origin_addr, const void *compare_addr,
+        void *result_addr, MPI_Datatype datatype, int target_rank,
+        MPI_Aint target_disp, MPI_Win win)</description>
+</snippet>

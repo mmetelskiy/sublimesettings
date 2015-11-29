@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Exscan(
+	${1:*sendbuf},
+	${2:*recvbuf},
+	${3:count},
+	${4:datatype},
+	${5:op},
+	${6:comm});${0}]]></content>
+	<tabTrigger>mpiexscan</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Exscan(const void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype,
+               MPI_Op op, MPI_Comm comm)</description>
+</snippet>

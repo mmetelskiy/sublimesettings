@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_CHAR]]></content>
+	<tabTrigger>mpichar</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_CHAR</description>
+</snippet>

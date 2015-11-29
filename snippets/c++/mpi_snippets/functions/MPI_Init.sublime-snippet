@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Init(
+	${1:*argc},
+	${2:***argv});${0}]]></content>
+	<tabTrigger>mpiinit</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Init( int *argc, char ***argv )</description>
+</snippet>

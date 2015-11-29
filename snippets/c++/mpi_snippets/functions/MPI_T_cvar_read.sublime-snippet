@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_cvar_read(
+	${1:handle},
+	${2:*buf});${0}]]></content>
+	<tabTrigger>mpitcvarread</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_cvar_read(MPI_T_cvar_handle handle, void *buf)</description>
+</snippet>

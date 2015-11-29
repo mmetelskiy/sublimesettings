@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_iwrite_at(
+	${1:fh},
+	${2:offset},
+	${3:*buf},
+	${4:count},
+	${5:datatype},
+	${6:*request});${0}]]></content>
+	<tabTrigger>mpifileiwriteat</tabTrigger>
+	<scope>source.c++</scope>
+	<description>#ifdef HAVE_MPI_GREQUEST
+#include "mpiu_greq.h"
+#endif
+
+int MPI_File_iwrite_at(MPI_File fh, MPI_Offset offset, ROMIO_CONST void *buf,
+                       int count, MPI_Datatype datatype, 
+                       MPIO_Request *request)</description>
+</snippet>

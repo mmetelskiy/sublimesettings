@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Testall(
+	${1:count},
+	${2:},
+	${3:*flag},
+	${4:});${0}]]></content>
+	<tabTrigger>mpitestall</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Testall(int count, MPI_Request array_of_requests[], int *flag, 
+               MPI_Status array_of_statuses[])</description>
+</snippet>

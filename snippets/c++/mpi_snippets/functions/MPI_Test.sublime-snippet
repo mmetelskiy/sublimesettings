@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Test(
+	${1:*request},
+	${2:*flag},
+	${3:*status});${0}]]></content>
+	<tabTrigger>mpitest</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Test(MPI_Request *request, int *flag, MPI_Status *status)</description>
+</snippet>

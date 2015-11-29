@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_call_errhandler(
+	${1:win},
+	${2:errorcode});${0}]]></content>
+	<tabTrigger>mpiwincallerrhandler</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_call_errhandler(MPI_Win win, int errorcode)</description>
+</snippet>

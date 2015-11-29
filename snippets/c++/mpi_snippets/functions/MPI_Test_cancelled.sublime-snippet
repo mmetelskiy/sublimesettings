@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Test_cancelled(
+	${1:*status},
+	${2:*flag});${0}]]></content>
+	<tabTrigger>mpitestcancelled</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Test_cancelled(const MPI_Status *status, int *flag)</description>
+</snippet>

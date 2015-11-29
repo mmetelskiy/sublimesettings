@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_pvar_handle_alloc(
+	${1:session},
+	${2:},
+	${3:},
+	${4:*handle},
+	${5:*count});${0}]]></content>
+	<tabTrigger>mpitpvarhandlealloc</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_pvar_handle_alloc(MPI_T_pvar_session session, int pvar_index,
+                            void *obj_handle, MPI_T_pvar_handle *handle, int *count)</description>
+</snippet>

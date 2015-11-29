@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_create(${1:*info});${0}]]></content>
+	<tabTrigger>mpiinfocreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Info_create( MPI_Info *info )</description>
+</snippet>

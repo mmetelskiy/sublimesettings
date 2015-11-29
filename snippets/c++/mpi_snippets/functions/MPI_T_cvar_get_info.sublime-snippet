@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_cvar_get_info(
+	${1:},
+	${2:*name},
+	${3:},
+	${4:*verbosity},
+	${5:*datatype},
+	${6:*enumtype},
+	${7:*desc},
+	${8:},
+	${9:*binding},
+	${10:*scope});${0}]]></content>
+	<tabTrigger>mpitcvargetinfo</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_cvar_get_info(int cvar_index, char *name, int *name_len,
+    int *verbosity, MPI_Datatype *datatype, MPI_T_enum *enumtype,
+    char *desc, int *desc_len, int *binding, int *scope)</description>
+</snippet>

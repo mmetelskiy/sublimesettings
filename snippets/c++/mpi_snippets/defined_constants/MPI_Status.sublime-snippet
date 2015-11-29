@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_Status]]></content>
+	<tabTrigger>mpistatus</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_Status</description>
+</snippet>

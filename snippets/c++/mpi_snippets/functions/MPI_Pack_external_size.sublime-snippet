@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Pack_external_size(
+	${1:},
+	${2:incount},
+	${3:datatype},
+	${4:*size});${0}]]></content>
+	<tabTrigger>mpipackexternalsize</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Pack_external_size(const char datarep[],
+                         int incount,
+                         MPI_Datatype datatype,
+                         MPI_Aint *size)</description>
+</snippet>

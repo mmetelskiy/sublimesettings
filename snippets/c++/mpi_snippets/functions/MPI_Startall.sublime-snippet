@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Startall(
+	${1:count},
+	${2:});${0}]]></content>
+	<tabTrigger>mpistartall</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Startall(int count, MPI_Request array_of_requests[])</description>
+</snippet>

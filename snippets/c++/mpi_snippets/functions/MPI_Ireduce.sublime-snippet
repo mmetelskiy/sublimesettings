@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Ireduce(
+	${1:*sendbuf},
+	${2:*recvbuf},
+	${3:count},
+	${4:datatype},
+	${5:op},
+	${6:root},
+	${7:comm},
+	${8:*request});${0}]]></content>
+	<tabTrigger>mpiireduce</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Ireduce(const void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype,
+                MPI_Op op, int root, MPI_Comm comm, MPI_Request *request)</description>
+</snippet>

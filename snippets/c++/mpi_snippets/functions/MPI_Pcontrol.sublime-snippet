@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Pcontrol(
+	${1:level},
+	${2:});${0}]]></content>
+	<tabTrigger>mpipcontrol</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Pcontrol(const int level, ...)</description>
+</snippet>

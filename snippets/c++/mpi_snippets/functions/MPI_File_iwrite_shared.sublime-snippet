@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_iwrite_shared(
+	${1:fh},
+	${2:*buf},
+	${3:count},
+	${4:datatype},
+	${5:*request});${0}]]></content>
+	<tabTrigger>mpifileiwriteshared</tabTrigger>
+	<scope>source.c++</scope>
+	<description>#ifdef HAVE_MPI_GREQUEST
+#include "mpiu_greq.h"
+#endif
+
+int MPI_File_iwrite_shared(MPI_File fh, ROMIO_CONST void *buf, int count,
+                         MPI_Datatype datatype, MPIO_Request *request)</description>
+</snippet>

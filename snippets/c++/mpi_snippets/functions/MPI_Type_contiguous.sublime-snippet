@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_contiguous(
+	${1:count},
+	${2:oldtype},
+	${3:*newtype});${0}]]></content>
+	<tabTrigger>mpitypecontiguous</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_contiguous(int count,
+                      MPI_Datatype oldtype,
+                      MPI_Datatype *newtype)</description>
+</snippet>

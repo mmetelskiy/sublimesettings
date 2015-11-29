@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_connect(
+	${1:},
+	${2:info},
+	${3:root},
+	${4:comm},
+	${5:*newcomm});${0}]]></content>
+	<tabTrigger>mpicommconnect</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_connect(const char *port_name, MPI_Info info, int root, MPI_Comm comm,
+                     MPI_Comm *newcomm)</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+MPI_Register_datarep(
+	${1:*datarep},
+	${2:},
+	${3:},
+	${4:},
+	${5:});${0}]]></content>
+	<tabTrigger>mpiregisterdatarep</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Register_datarep(ROMIO_CONST char *datarep,
+                       MPI_Datarep_conversion_function *read_conversion_fn,
+                       MPI_Datarep_conversion_function *write_conversion_fn,
+                       MPI_Datarep_extent_function *dtype_file_extent_fn,
+                       void *extra_state)</description>
+</snippet>

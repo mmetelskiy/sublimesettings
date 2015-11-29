@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Error_class(
+	${1:errorcode},
+	${2:*errorclass});${0}]]></content>
+	<tabTrigger>mpierrorclass</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Error_class(int errorcode, int *errorclass)</description>
+</snippet>

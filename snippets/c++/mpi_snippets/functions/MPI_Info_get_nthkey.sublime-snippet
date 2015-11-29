@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_get_nthkey(${1:});${0}]]></content>
+	<tabTrigger>mpiinfogetnthkey</tabTrigger>
+	<scope>source.c++</scope>
+	<description>#undef FUNCNAME
+#define FUNCNAME MPI_Info_get_nthkey
+#undef FCNAME
+#define FCNAME MPL_QUOTE(FUNCNAME)
+int MPI_Info_get_nthkey( MPI_Info info, int n, char *key )</description>
+</snippet>

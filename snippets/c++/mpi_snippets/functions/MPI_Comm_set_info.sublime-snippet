@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Comm_set_info(
+	${1:comm},
+	${2:info});${0}]]></content>
+	<tabTrigger>mpicommsetinfo</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Comm_set_info(MPI_Comm comm, MPI_Info info)</description>
+</snippet>

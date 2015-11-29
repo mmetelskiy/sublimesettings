@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_create_dynamic(
+	${1:info},
+	${2:comm},
+	${3:*win});${0}]]></content>
+	<tabTrigger>mpiwincreatedynamic</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_create_dynamic(MPI_Info info, MPI_Comm comm, MPI_Win *win)</description>
+</snippet>

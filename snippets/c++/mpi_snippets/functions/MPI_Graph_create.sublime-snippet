@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Graph_create(
+	${1:},
+	${2:nnodes},
+	${3:},
+	${4:},
+	${5:reorder},
+	${6:});${0}]]></content>
+	<tabTrigger>mpigraphcreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Graph_create(MPI_Comm comm_old, int nnodes, const int indx[],
+                     const int edges[], int reorder, MPI_Comm *comm_graph)</description>
+</snippet>

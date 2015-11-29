@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_pvar_read(
+	${1:session},
+	${2:handle},
+	${3:*buf});${0}]]></content>
+	<tabTrigger>mpitpvarread</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_pvar_read(MPI_T_pvar_session session, MPI_T_pvar_handle handle, void *buf)</description>
+</snippet>

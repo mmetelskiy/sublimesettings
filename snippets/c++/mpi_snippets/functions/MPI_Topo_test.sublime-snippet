@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Topo_test(
+	${1:comm},
+	${2:*status});${0}]]></content>
+	<tabTrigger>mpitopotest</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Topo_test(MPI_Comm comm, int *status)</description>
+</snippet>

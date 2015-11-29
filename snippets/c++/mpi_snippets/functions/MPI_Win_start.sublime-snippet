@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_start(
+	${1:group},
+	${2:assert},
+	${3:win});${0}]]></content>
+	<tabTrigger>mpiwinstart</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_start(MPI_Group group, int assert, MPI_Win win)</description>
+</snippet>

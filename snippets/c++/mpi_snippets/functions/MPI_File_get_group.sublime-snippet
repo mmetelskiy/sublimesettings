@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_group(
+	${1:fh},
+	${2:*group});${0}]]></content>
+	<tabTrigger>mpifilegetgroup</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_group(MPI_File fh, MPI_Group *group)</description>
+</snippet>

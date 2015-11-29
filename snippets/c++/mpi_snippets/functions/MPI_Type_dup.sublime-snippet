@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_dup(
+	${1:oldtype},
+	${2:*newtype});${0}]]></content>
+	<tabTrigger>mpitypedup</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_dup(MPI_Datatype oldtype, MPI_Datatype *newtype)</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Info_delete(
+	${1:info},
+	${2:*key});${0}]]></content>
+	<tabTrigger>mpiinfodelete</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Info_delete( MPI_Info info, const char *key )</description>
+</snippet>

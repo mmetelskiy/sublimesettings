@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_Datatype]]></content>
+	<tabTrigger>mpidatatype</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_Datatype</description>
+</snippet>

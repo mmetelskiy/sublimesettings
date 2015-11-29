@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_read_all(
+	${1:fh},
+	${2:*buf},
+	${3:count},
+	${4:datatype},
+	${5:*status});${0}]]></content>
+	<tabTrigger>mpifilereadall</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_read_all(MPI_File fh, void *buf, int count,
+                      MPI_Datatype datatype, MPI_Status *status)</description>
+</snippet>

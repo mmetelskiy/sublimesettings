@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+MPI_Ineighbor_allgather(
+	${1:*sendbuf},
+	${2:sendcount},
+	${3:sendtype},
+	${4:*recvbuf},
+	${5:recvcount},
+	${6:recvtype},
+	${7:comm},
+	${8:*request});${0}]]></content>
+	<tabTrigger>mpiineighborallgather</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Ineighbor_allgather(const void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, MPI_Comm comm, MPI_Request *request)</description>
+</snippet>

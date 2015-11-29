@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_create(
+	${1:*base},
+	${2:size},
+	${3:},
+	${4:info},
+	${5:comm},
+	${6:*win});${0}]]></content>
+	<tabTrigger>mpiwincreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_create(void *base, MPI_Aint size, int disp_unit, MPI_Info info, 
+                  MPI_Comm comm, MPI_Win *win)</description>
+</snippet>

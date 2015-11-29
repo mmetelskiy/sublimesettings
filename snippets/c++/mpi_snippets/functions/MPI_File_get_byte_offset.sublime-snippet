@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_byte_offset(
+	${1:fh},
+	${2:offset},
+	${3:*disp});${0}]]></content>
+	<tabTrigger>mpifilegetbyteoffset</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_byte_offset(MPI_File fh, MPI_Offset offset, MPI_Offset *disp)</description>
+</snippet>

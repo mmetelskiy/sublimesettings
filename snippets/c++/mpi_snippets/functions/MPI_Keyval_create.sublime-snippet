@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_Keyval_create(
+	${1:},
+	${2:},
+	${3:*keyval},
+	${4:});${0}]]></content>
+	<tabTrigger>mpikeyvalcreate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Keyval_create(MPI_Copy_function *copy_fn, 
+                     MPI_Delete_function *delete_fn, 
+                     int *keyval, void *extra_state)</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_write_at_all_begin(
+	${1:fh},
+	${2:offset},
+	${3:*buf},
+	${4:count},
+	${5:datatype});${0}]]></content>
+	<tabTrigger>mpifilewriteatallbegin</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_write_at_all_begin(MPI_File fh, MPI_Offset offset, ROMIO_CONST void *buf,
+                             int count, MPI_Datatype datatype)</description>
+</snippet>

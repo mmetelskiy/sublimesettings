@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+MPI_Pack(
+	${1:*inbuf},
+	${2:incount},
+	${3:datatype},
+	${4:*outbuf},
+	${5:outsize},
+	${6:*position},
+	${7:comm});${0}]]></content>
+	<tabTrigger>mpipack</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Pack(const void *inbuf,
+             int incount,
+             MPI_Datatype datatype,
+             void *outbuf,
+             int outsize,
+             int *position,
+             MPI_Comm comm)</description>
+</snippet>

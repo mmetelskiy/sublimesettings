@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Graphdims_get(
+	${1:comm},
+	${2:*nnodes},
+	${3:*nedges});${0}]]></content>
+	<tabTrigger>mpigraphdimsget</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Graphdims_get(MPI_Comm comm, int *nnodes, int *nedges)</description>
+</snippet>

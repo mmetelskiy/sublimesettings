@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_Attr_put(
+	${1:comm},
+	${2:keyval},
+	${3:});${0}]]></content>
+	<tabTrigger>mpiattrput</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Attr_put(MPI_Comm comm, int keyval, void *attribute_val)</description>
+</snippet>

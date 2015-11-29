@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Status_set_cancelled(
+	${1:*status},
+	${2:flag});${0}]]></content>
+	<tabTrigger>mpistatussetcancelled</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Status_set_cancelled(MPI_Status *status, int flag)</description>
+</snippet>

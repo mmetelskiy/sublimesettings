@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+MPI_Sendrecv(
+	${1:*sendbuf},
+	${2:sendcount},
+	${3:sendtype},
+	${4:dest},
+	${5:sendtag},
+	${6:*recvbuf},
+	${7:recvcount},
+	${8:recvtype},
+	${9:source},
+	${10:recvtag},
+	${11:comm},
+	${12:*status});${0}]]></content>
+	<tabTrigger>mpisendrecv</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Sendrecv(const void *sendbuf, int sendcount, MPI_Datatype sendtype,
+                int dest, int sendtag,
+                void *recvbuf, int recvcount, MPI_Datatype recvtype,
+                int source, int recvtag,
+                MPI_Comm comm, MPI_Status *status)</description>
+</snippet>

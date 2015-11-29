@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Win_detach(
+	${1:win},
+	${2:*base});${0}]]></content>
+	<tabTrigger>mpiwindetach</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Win_detach(MPI_Win win, const void *base)</description>
+</snippet>

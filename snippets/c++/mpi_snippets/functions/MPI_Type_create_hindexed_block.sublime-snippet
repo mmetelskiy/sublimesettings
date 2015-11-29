@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_create_hindexed_block(
+	${1:count},
+	${2:blocklength},
+	${3:},
+	${4:oldtype},
+	${5:newtype});${0}]]></content>
+	<tabTrigger>mpitypecreatehindexedblock</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_create_hindexed_block(int count,
+                                    int blocklength,
+                                    const MPI_Aint array_of_displacements[],
+                                    MPI_Datatype oldtype, MPI_Datatype * newtype)</description>
+</snippet>

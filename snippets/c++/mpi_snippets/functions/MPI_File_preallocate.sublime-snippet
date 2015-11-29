@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_preallocate(
+	${1:fh},
+	${2:size});${0}]]></content>
+	<tabTrigger>mpifilepreallocate</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_preallocate(MPI_File fh, MPI_Offset size)</description>
+</snippet>

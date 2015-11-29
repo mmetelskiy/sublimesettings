@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Get_version(
+	${1:*version},
+	${2:*subversion});${0}]]></content>
+	<tabTrigger>mpigetversion</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Get_version( int *version, int *subversion )</description>
+</snippet>

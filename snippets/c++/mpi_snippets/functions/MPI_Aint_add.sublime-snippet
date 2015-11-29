@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Aint_add(
+	${1:base},
+	${2:disp});${0}]]></content>
+	<tabTrigger>mpiaintadd</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_Aint MPI_Aint_add(MPI_Aint base, MPI_Aint disp)</description>
+</snippet>

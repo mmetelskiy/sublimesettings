@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Type_get_attr(
+	${1:datatype},
+	${2:},
+	${3:},
+	${4:*flag});${0}]]></content>
+	<tabTrigger>mpitypegetattr</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Type_get_attr(MPI_Datatype datatype, int type_keyval, void *attribute_val,
+                     int *flag)</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Waitany(
+	${1:count},
+	${2:},
+	${3:*indx},
+	${4:*status});${0}]]></content>
+	<tabTrigger>mpiwaitany</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Waitany(int count, MPI_Request array_of_requests[], int *indx,
+               MPI_Status *status)</description>
+</snippet>

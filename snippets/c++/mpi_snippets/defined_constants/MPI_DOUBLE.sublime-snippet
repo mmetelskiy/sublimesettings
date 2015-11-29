@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_DOUBLE]]></content>
+	<tabTrigger>mpidouble</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_DOUBLE</description>
+</snippet>

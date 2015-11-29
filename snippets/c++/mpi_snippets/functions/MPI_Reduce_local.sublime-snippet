@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_Reduce_local(
+	${1:*inbuf},
+	${2:*inoutbuf},
+	${3:count},
+	${4:datatype},
+	${5:op});${0}]]></content>
+	<tabTrigger>mpireducelocal</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Reduce_local(const void *inbuf, void *inoutbuf, int count, MPI_Datatype datatype, MPI_Op op)</description>
+</snippet>

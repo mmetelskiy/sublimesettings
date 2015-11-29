@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_Attr_delete(
+	${1:comm},
+	${2:keyval});${0}]]></content>
+	<tabTrigger>mpiattrdelete</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Attr_delete(MPI_Comm comm, int keyval)</description>
+</snippet>

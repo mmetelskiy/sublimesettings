@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[MPI_BYTE]]></content>
+	<tabTrigger>mpibyte</tabTrigger>
+	<scope>source.c++</scope>
+	<description>MPI_BYTE</description>
+</snippet>

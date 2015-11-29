@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_seek_shared(
+	${1:fh},
+	${2:offset},
+	${3:whence});${0}]]></content>
+	<tabTrigger>mpifileseekshared</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_seek_shared(MPI_File fh, MPI_Offset offset, int whence)</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+MPI_Dist_graph_neighbors_count(
+	${1:comm},
+	${2:*indegree},
+	${3:*outdegree},
+	${4:*weighted});${0}]]></content>
+	<tabTrigger>mpidistgraphneighborscount</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_Dist_graph_neighbors_count(MPI_Comm comm, int *indegree, int *outdegree, int *weighted)</description>
+</snippet>

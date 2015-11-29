@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_get_position(
+	${1:fh},
+	${2:*offset});${0}]]></content>
+	<tabTrigger>mpifilegetposition</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_get_position(MPI_File fh, MPI_Offset *offset)</description>
+</snippet>

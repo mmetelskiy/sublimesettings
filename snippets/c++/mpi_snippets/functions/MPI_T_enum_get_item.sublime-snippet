@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+MPI_T_enum_get_item(
+	${1:enumtype},
+	${2:index},
+	${3:*value},
+	${4:*name},
+	${5:});${0}]]></content>
+	<tabTrigger>mpitenumgetitem</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_T_enum_get_item(MPI_T_enum enumtype, int index, int *value, char *name, int *name_len)</description>
+</snippet>

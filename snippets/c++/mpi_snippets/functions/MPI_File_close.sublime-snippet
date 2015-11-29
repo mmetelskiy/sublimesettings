@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MPI_File_close(${1:*fh});${0}]]></content>
+	<tabTrigger>mpifileclose</tabTrigger>
+	<scope>source.c++</scope>
+	<description>int MPI_File_close(MPI_File *fh)</description>
+</snippet>
