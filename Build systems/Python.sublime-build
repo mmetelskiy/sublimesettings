@@ -5,7 +5,7 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["gnome-terminal", "-e", "/home/debian/Folder/1Compilers/python.sh '$file'"]
+			"cmd": ["konsole", "-e", "~/Folder/1Compilers/python.sh", "$file"]
 		}
 	]
 }

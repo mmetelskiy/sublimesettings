@@ -1,10 +1,12 @@
 {
 	"cmd": ["mpic++", "-g", "$file_name", "-o", "$file_base_name"],
+	// "selector": "source.c++",
 	"variants":
  	[
 		{
     		"name": "Run",
-     		"cmd":["mpirun", "-np", "8", "$file_path/$file_base_name"]
+     		// "cmd":[ "konsole", "-e", "~/Folder/1Compilers/mpirun.sh", "$file_path/$file_base_name"]
+     		"cmd": ["mpirun", "-np", "4", "$file_path/$file_base_name"]
    		}
  	]
 }

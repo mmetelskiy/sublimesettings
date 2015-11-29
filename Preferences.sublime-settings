@@ -1,14 +1,16 @@
 {
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
-	"font_size": 14,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"show_encoding": true,
 	"show_panel_on_build": true,
-	"update_check": false,
+	"theme": "predawn-DEV.sublime-theme",
+	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
-    "bold_folder_labels": true,
-    "ensure_newline_at_eof_on_save": true
+	"update_check": false
 }
