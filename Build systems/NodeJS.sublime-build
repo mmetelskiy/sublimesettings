@@ -5,7 +5,7 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["konsole", "-e", "~/Folder/1Compilers/nodejs.sh", "$file"]
+			"cmd": ["konsole", "-e", "$packages/User/Build systems/shell/nodejs.sh", "$file"]
 		}
 	]
 }

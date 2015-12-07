@@ -1,11 +1,11 @@
 {
-	"cmd": ["konsole", "-e", "~/Folder/1Compilers/java_compile.sh", "$file_path", "$file_base_name"],
+	"cmd": ["konsole", "-e", "$packages/User/Build systems/shell/java_compile.sh", "$file_path", "$file_base_name"],
 	"selector": "source.java",
 	"variants":
 	[
    	{
      	"name": "Run",
-     	"cmd":["konsole", "-e", "~/Folder/1Compilers/java_run.sh", "$file_path/classes", "$file_base_name"]
+     	"cmd":["konsole", "-e", "$packages/User/Build systems/shell/java_run.sh", "$file_path/classes", "$file_base_name"]
    	}
  	]
 }

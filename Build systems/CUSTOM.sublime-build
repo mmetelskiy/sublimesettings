@@ -4,7 +4,7 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["konsole", "-e", "~/Folder/1Compilers/custom/run.sh"]
+			"cmd": ["konsole", "-e", "$packages/User/Build systems/shell/custom/run.sh"]
 		}
 	]
 }

@@ -5,7 +5,7 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["konsole", "-e", "~/Folder/1Compilers/ruby.sh", "$file"]
+			"cmd": ["konsole", "-e", "$packages/User/Build systems/shell/ruby.sh", "$file"]
 		}
 	]
 }
